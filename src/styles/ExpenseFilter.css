@@ -1,0 +1,46 @@
+.expense-filter-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  background-color: #E3F8FF;
+  padding: 10px;
+  color: #00E5FF;
+  border-radius: 14px;
+}
+
+.expense-filter-container label {
+  font-weight: bold;
+}
+
+
+.filter-option {
+  width: 50%;
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: 1px solid #D1D5DB;
+  background-color: #F9FAFB;
+  color: #111827;
+  font-size: 15px;
+  outline: none;
+  cursor: pointer;
+  transition: border 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Hover */
+.filter-option:hover {
+  border-color: #4CAF50;
+}
+
+/* Focus (clicked) */
+.filter-option:focus {
+  border-color: #4CAF50;
+  box-shadow: 0 0 0 2px rgba(76, 175, 80, 0.3);
+}
+
+/* Options (some browsers support this) */
+.filter-option option {
+  background-color: #ffffff;
+  color: #374151;
+  padding: 10px;
+}

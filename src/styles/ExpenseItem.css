@@ -1,0 +1,30 @@
+.expense-item {
+  background-color: #0E2538;
+  display: flex;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.expense-item button {
+  background-color: #F44336;
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.expense-item button:hover {
+  background-color: #741c16;
+}
+
+.expense-item p {
+  font-weight: bold;
+}

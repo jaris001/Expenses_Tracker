@@ -1,0 +1,13 @@
+.expense-list-container {
+  max-width: 600px;
+  background-color: #E3F8FF;
+  max-height: 300px;
+  overflow: scroll;
+  border-radius: 10px;
+  padding: 10px;
+  color: #00E5FF;
+}
+
+.expense-list-container::-webkit-scrollbar {
+  display: none;
+}
