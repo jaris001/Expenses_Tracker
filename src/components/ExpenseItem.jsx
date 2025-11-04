@@ -20,7 +20,7 @@ const ExpenseItem = ({ expense }) => {
       type: ACTION.REMOVE,
       payload: expense.id,
     });
-  }, [dispatch]);
+  }, [dispatch, expense.id]);
 
 
   return (
